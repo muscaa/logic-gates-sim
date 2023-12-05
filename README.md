@@ -19,7 +19,7 @@ A Logic Gates Simulator made with the help of ___LWJGL___, ___Slick2D___ and ___
 
 If you don't have ___Java 17___ already installed, you'll need it now. Here's the [_link_](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
 
-After you have installed Java and added it to the ___PATH___, you can download the application jar from [_here_](https://github.com/muscaa/logic-gates-sim/releases/tag/lgs).
+After you have installed Java and added it to the ___PATH___, you can download the application jar from [_here_](https://github.com/muscaa/logic-gates-sim/releases).
 
 Now you place it where you want and create in that dir:
 
