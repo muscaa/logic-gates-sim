@@ -3,7 +3,7 @@
 [![Apache-2.0 License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](https://choosealicense.com/licenses/apache-2.0/)
 ## Quick Description
 
-A Logic Gates Simulator made with the help of __LWJGL__ and __Slick2D__ in __Java 17__.
+A Logic Gates Simulator made with the help of ___LWJGL___, ___Slick2D___ and ___JNA___ in ___Java 17___.
 
 ### Features
 
@@ -17,23 +17,23 @@ A Logic Gates Simulator made with the help of __LWJGL__ and __Slick2D__ in __Jav
 - A logic calculator
 ## Running the program
 
-If you don't have __Java 17__ already installed, you'll need it now. Here's the [link](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
+If you don't have ___Java 17___ already installed, you'll need it now. Here's the [_link_](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
 
-After you have installed Java and added it to the __PATH__, you can download the application jar ([link](https://github.com/muscaa/logic-gates-sim/releases/tag/lgs)).
+After you have installed Java and added it to the ___PATH___, you can download the application jar from [_here_](https://github.com/muscaa/logic-gates-sim/releases/tag/lgs).
 
 Now you place it where you want and create in that dir:
 
-- on __windows__:
+- on ___windows___:
 
-  a __run.bat__ file containing:
+  a ___run.bat___ file containing:
 
   ```bash
   start javaw -jar logic-gates-sim.jar
   ```
 
-- on __linux/macos__:
+- on ___linux/macos___:
 
-  a __run.sh__ file containing:
+  a ___run.sh___ file containing:
 
   ```bash
   javaw -jar logic-gates-sim.jar
