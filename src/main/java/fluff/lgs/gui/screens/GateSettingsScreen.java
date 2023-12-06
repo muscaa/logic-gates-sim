@@ -13,14 +13,14 @@ import fluff.lgs.resources.Align;
 import fluff.lgs.resources.Fonts;
 import fluff.lgs.storage.Worlds;
 
-public class WindowSettingsScreen extends ScrollMenuScreen {
+public class GateSettingsScreen extends ScrollMenuScreen {
 	
 	private final GateWindow gw;
 	
 	private TextBox nameBox;
 	
-	public WindowSettingsScreen(GateWindow gw) {
-		super("Window Settings");
+	public GateSettingsScreen(GateWindow gw) {
+		super("Gate Settings");
 		this.gw = gw;
 		
 		NicePanel typePanel = new NicePanel(0, 0, scroll.getContentWidth(), 50, false);

@@ -15,7 +15,7 @@ import fluff.lgs.gui.WindowRegistry;
 import fluff.lgs.gui.elements.Icon;
 import fluff.lgs.gui.elements.ToggleButton;
 import fluff.lgs.gui.elements.Window;
-import fluff.lgs.gui.screens.WindowSettingsScreen;
+import fluff.lgs.gui.screens.GateSettingsScreen;
 import fluff.lgs.storage.data.IDataInput;
 import fluff.lgs.storage.values.BooleanValue;
 
@@ -36,7 +36,7 @@ public class GateWindow extends Window {
 		
 		if (!hovered || found) return;
 		
-		if (button == 1 && canDrag(mouseX, mouseY)) LGS.setScreen(new WindowSettingsScreen(this));
+		if (button == 1 && canDrag(mouseX, mouseY)) LGS.setScreen(new GateSettingsScreen(this));
 	}
 	
 	public void init(IGateType type, IDataInput data) throws IOException {

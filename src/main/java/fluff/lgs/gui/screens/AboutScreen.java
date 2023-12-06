@@ -13,8 +13,8 @@ public class AboutScreen extends MenuScreen {
 		
 		String text = """
 				Made with the help of
-				LWJGL and Slick2D by musca
-				Enjoy :)
+				LWJGL, Slick2D and JNA by musca
+				Enjoy! :)
 				""";
 		
 		String[] split = text.split("\n");
